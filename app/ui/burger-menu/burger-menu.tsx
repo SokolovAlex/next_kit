@@ -31,7 +31,7 @@ export const BurgerMenu = () => {
 
   return (
     <div>
-        <div className={clsx(`z-40 bg-steel-200 h-screen fixed transition-transform w-1/4 px-6 py-12`,
+        <div className={clsx(`z-40 bg-steel-200 h-screen fixed transition-transform w-96 px-6 py-12`,
           !open && '-translate-x-full'
         )}>
           {links.map(({ href, Icon, text}) => (
