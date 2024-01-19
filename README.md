@@ -20,8 +20,22 @@ https://github.com/vercel/next.js/tree/canary/examples/with-linaria
 storybook example
 https://github.com/vercel/next.js/tree/canary/examples/with-storybook
 
+TW tips
+https://jfelix.info/blog/6-tips-for-tailwind-css-development-with-resources
+
+TW components
+https://tailwindcomponents.com/ -->
+https://www.tailwindtoolbox.com/starter-components
+
+TW Kits
+https://www.tailwindtoolbox.com/kits
+https://tailblocks.cc/
+https://merakiui.com/templates  -->
+
 
 plan
-1. Promo
-2. Storyboo
-3. Hamburger
+1. Promo         <-- X
+2. Storybook
+3. Hamburger     <-- X
+4. Login-form
+5. pages from templates

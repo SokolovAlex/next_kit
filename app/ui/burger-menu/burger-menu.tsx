@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 const links = [{
   href: `/dashboard`,
-  Icon: ChartPieIcon,
+  Icon: Bars3CenterLeftIcon,
   text: `Dashboard`,
 }, {
   href: `/projects`,
@@ -31,11 +31,14 @@ export const BurgerMenu = () => {
 
   return (
     <div>
-        <div className={clsx(`z-40 bg-steel-200 h-screen fixed transition-transform w-96 px-6 py-12`,
+        <div className={clsx(`z-40 bg-spindle-200 h-screen fixed transition-transform w-96 px-6 py-12`,
           !open && '-translate-x-full'
         )}>
           {links.map(({ href, Icon, text}) => (
-              <NavLink key={href} onClick={toggle} active={pathname === href} href={href}><Icon className="w-5"/>{text}</NavLink>
+              <NavLink key={href} onClick={toggle} active={pathname === href} href={href}>
+                <Icon className="w-8 h-8"/>
+                {text}
+              </NavLink>
           ))}
         </div>
         <Hamburger open={open} onClick={toggle} />
