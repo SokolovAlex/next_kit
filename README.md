@@ -30,7 +30,9 @@ https://www.tailwindtoolbox.com/starter-components
 TW Kits
 https://www.tailwindtoolbox.com/kits
 https://tailblocks.cc/
-https://merakiui.com/templates  -->
+https://merakiui.com/templates 
+https://daisyui.com/components/accordion/
+https://www.tailwind-kit.com/components#elements22
 
 
 plan

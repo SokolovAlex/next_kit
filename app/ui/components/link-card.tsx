@@ -20,10 +20,8 @@ export const LinkCard = ({ className, href, title, description }: LinkCardProps)
         )}>
         <div className="text-2xl font-bold flex gap-2">
             {title}
-            <ArrowRightIcon className={clsx(`w-5 md:w-6`, styles[`arrow-icon`])} />
+            <ArrowRightIcon className={clsx(`w-5`, styles[`arrow-icon`])} />
         </div>
         <div className="font-medium">{description}</div>
     </Link>
 )
-
-console.log(styles)
