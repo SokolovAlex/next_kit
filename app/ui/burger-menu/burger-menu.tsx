@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from "react";
-import { ChartPieIcon,  PuzzlePieceIcon, Bars3CenterLeftIcon } from '@heroicons/react/24/outline';
+import { ChartPieIcon,  PuzzlePieceIcon, Bars3CenterLeftIcon, BugAntIcon } from '@heroicons/react/24/outline';
 import { GlobeEuropeAfricaIcon } from '@heroicons/react/24/solid';
 import clsx from "clsx";
 import { NavLink } from "../button/nav-link";
@@ -20,8 +20,12 @@ const links = [{
   text: `Experience`,
 }, {
   href: `/hobbies`,
-  Icon: PuzzlePieceIcon,
+  Icon: BugAntIcon,
   text: `Hobbies`,
+}, {
+  href: `/unfair-game`,
+  Icon: PuzzlePieceIcon,
+  text: `Unfair Game`,
 }]
 
 export const BurgerMenu = () => {

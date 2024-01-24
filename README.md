@@ -37,7 +37,7 @@ https://www.tailwind-kit.com/components#elements22
 
 plan
 1. Promo         <-- X
-2. Storybook
+2. Storybook     <-- X
 3. Hamburger     <-- X
 4. Login-form
-5. pages from templates
+5. Pages from templates

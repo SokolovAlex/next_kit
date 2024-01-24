@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
@@ -15,4 +21,19 @@ input[type='number']::-webkit-inner-spin-button {
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.gradient-green {
+  color: rgb(0,0,0);
+  background: linear-gradient(to bottom right,transparent,rgb(255,255,255)) rgb(196, 245, 196);
+}
+
+.gradient-gray {
+  color: rgb(0,0,0);
+  background: linear-gradient(to bottom right,transparent,rgb(255,255,255)) rgb(224, 224, 224);
+}
+
+.gradient-blue {
+  color: rgb(0,0,0);
+  background: linear-gradient(to bottom left,transparent,rgb(255,255,255)) rgb(175, 203, 255);
 }
