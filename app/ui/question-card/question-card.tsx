@@ -1,6 +1,6 @@
 'use client';
 import clsx from "clsx";
-import { ChartBarSquareIcon, FireIcon, RocketLaunchIcon, TrophyIcon } from '@heroicons/react/24/outline';
+import { ChartBarSquareIcon, FireIcon, RocketLaunchIcon, TrophyIcon, HeartIcon} from '@heroicons/react/24/outline';
 import './question-card.css'
 import { useState } from "react";
 import { shantellSans } from "../fonts";
@@ -58,7 +58,8 @@ export const QuestionCard = ({ text, active, opened, icon, onActive, onClose }: 
 const iconMap = new Map();
 iconMap.set('RocketLaunchIcon', RocketLaunchIcon);
 iconMap.set('ChartBarSquareIcon', ChartBarSquareIcon);
-iconMap.set('FireIcon', FireIcon);
+iconMap.set('FireIcon', FireIcon); 
+iconMap.set('HeartIcon', HeartIcon); 
 
 const getIcon = (name?: string) => {
     if (!name) {

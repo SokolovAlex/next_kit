@@ -1,16 +1,19 @@
 .pulse-button-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin: 0 auto 0;
   }
   .pulse-button {
     position: relative;
     border: none;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
     border-radius: 50%;
-    background-color: #e84c3d;
+
+    background: #e84c3d;
+background: linear-gradient(90deg, rgb(37, 0, 0) 0%, rgb(157, 1, 50) 35%, rgb(252, 147, 163) 100%);
+    /* background-color: #e84c3d; */
     background-size:cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -27,3 +30,41 @@
   @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
   @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
   @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+.d-button-wrapper {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 0;
+  }
+  .d-button {
+    position: relative;
+    border: none;
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 14px 14px rgba(63, 62, 62, 0.7);
+    border-radius: 50%;
+
+    background: #e84c3d;
+    background: linear-gradient(90deg, #e84c3d 0%, rgb(157, 1, 50) 35%, rgb(252, 147, 163) 100%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    animation-name: AnimationName;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
+
+  .d-button:hover {
+    box-shadow: 0 4px 14px rgba(63, 62, 62, 0.7);
+    transform: translateY(10px);
+  }
+
+  @keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
